@@ -1,0 +1,14 @@
+h1 {
+    color: black;
+}
+
+.route {
+    background-color:  #eff3f7;
+    border-right: 1px solid gray;
+    width: 14em;
+    display: grid;
+}
+
+a {
+    color:black;
+}
