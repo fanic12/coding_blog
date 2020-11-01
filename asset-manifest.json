@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/coding_blog/static/css/main.a35a5994.chunk.css",
-    "main.js": "/coding_blog/static/js/main.814f389a.chunk.js",
-    "main.js.map": "/coding_blog/static/js/main.814f389a.chunk.js.map",
-    "runtime-main.js": "/coding_blog/static/js/runtime-main.fc8f55e1.js",
-    "runtime-main.js.map": "/coding_blog/static/js/runtime-main.fc8f55e1.js.map",
-    "static/js/2.b1b8749c.chunk.js": "/coding_blog/static/js/2.b1b8749c.chunk.js",
-    "static/js/2.b1b8749c.chunk.js.map": "/coding_blog/static/js/2.b1b8749c.chunk.js.map",
-    "index.html": "/coding_blog/index.html",
-    "precache-manifest.aa18e1f1fe5793bf2e50ec36ae78d019.js": "/coding_blog/precache-manifest.aa18e1f1fe5793bf2e50ec36ae78d019.js",
-    "service-worker.js": "/coding_blog/service-worker.js",
-    "static/css/main.a35a5994.chunk.css.map": "/coding_blog/static/css/main.a35a5994.chunk.css.map",
-    "static/js/2.b1b8749c.chunk.js.LICENSE.txt": "/coding_blog/static/js/2.b1b8749c.chunk.js.LICENSE.txt",
-    "static/media/Bbibbi.png": "/coding_blog/static/media/Bbibbi.e90ab2a1.png"
+    "main.css": "/fanic12/coding_blog/static/css/main.a35a5994.chunk.css",
+    "main.js": "/fanic12/coding_blog/static/js/main.814f389a.chunk.js",
+    "main.js.map": "/fanic12/coding_blog/static/js/main.814f389a.chunk.js.map",
+    "runtime-main.js": "/fanic12/coding_blog/static/js/runtime-main.65cbd095.js",
+    "runtime-main.js.map": "/fanic12/coding_blog/static/js/runtime-main.65cbd095.js.map",
+    "static/js/2.b1b8749c.chunk.js": "/fanic12/coding_blog/static/js/2.b1b8749c.chunk.js",
+    "static/js/2.b1b8749c.chunk.js.map": "/fanic12/coding_blog/static/js/2.b1b8749c.chunk.js.map",
+    "index.html": "/fanic12/coding_blog/index.html",
+    "precache-manifest.28b37d2cd228f978fa929c0c6a53a887.js": "/fanic12/coding_blog/precache-manifest.28b37d2cd228f978fa929c0c6a53a887.js",
+    "service-worker.js": "/fanic12/coding_blog/service-worker.js",
+    "static/css/main.a35a5994.chunk.css.map": "/fanic12/coding_blog/static/css/main.a35a5994.chunk.css.map",
+    "static/js/2.b1b8749c.chunk.js.LICENSE.txt": "/fanic12/coding_blog/static/js/2.b1b8749c.chunk.js.LICENSE.txt",
+    "static/media/Bbibbi.png": "/fanic12/coding_blog/static/media/Bbibbi.e90ab2a1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc8f55e1.js",
+    "static/js/runtime-main.65cbd095.js",
     "static/js/2.b1b8749c.chunk.js",
     "static/css/main.a35a5994.chunk.css",
     "static/js/main.814f389a.chunk.js"
