@@ -1,9 +1,76 @@
-ul {
+/* ul {
   padding-inline-start: 1.2em;
   padding-left: 1.7em;
+} */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 65px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-.sidebarpaddingSet {
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+.navbar div {
+  display: flex;
+}
+
+.navbar .title {
+  margin-left: 20px;
+  font-size: 24px;
+}
+
+.sidebar {
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  transform: translateX(0);
+  transition: 0.8s ease all;
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar .closeBtn {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.sidebar.open {
+  transform: translateX(250px);
+}
+
+.sidebar > .title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.sidebar > .post {
+  transition: all 0.3s ease;
+  margin-left: 5px;
+}
+
+.sidebar > .title:hover {
+  transform: scale(1.1) translateX(15px);
+}
+
+.sidebar > .post:hover {
+  transform: translateX(7px);
+}
+
+.sidebar > .post {
+  font-size: 18px;
+  margin-bottom: 5px;
 }

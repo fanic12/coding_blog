@@ -1,6 +1,7 @@
 import React from 'react'
 import Youtube from '../../components/Youtube'
 import Href from '../../components/Href'
+import Comment from '../../components/Comment'
 
 function Style() {
   return (
@@ -8,7 +9,7 @@ function Style() {
       <h2>CSS-style</h2>
       <Youtube title='style introduce' src='h0AlL9YI6bM' />
       <p>
-        style코드는 간단합니다
+        style코드는 간단합니다.
         <br />
         단위가확장자명이
         <Href title='css guide' url='https://namu.wiki/w/CSS'>
@@ -30,12 +31,12 @@ function Style() {
         <Href title='css guide' url='https://namu.wiki/w/CSS'>
           css
         </Href>{' '}
-        사용을 할수있게 만드는 겁니다
+        사용을 할수있게 만드는 겁니다.
         <br />
         style코드의 형태는 {'<'}style{'>'}
-        {'<'}/style{'>'}만있는 것이 아닙니다
+        {'<'}/style{'>'}만있는 것이 아닙니다.
         <br />
-        다른 코드내에서도 들어가 사용할수 있는게 style코드입니다
+        다른 코드내에서도 들어가 사용할수 있는게 style코드입니다.
         <h4>
           *해당 수업을 듣고 싶으신 분들은 style태그의 변형수업을 참고하시면
           됩니다*
@@ -62,7 +63,7 @@ function Style() {
         <Href title='html5 guide' url='https://ko.wikipedia.org/wiki/HTML'>
           html
         </Href>
-        이 그냥 글자로 인식하기 때문입니다
+        이 그냥 글자로 인식하기 때문입니다.
         <br />
         해당 파일의 확장자명은{' '}
         <Href title='html5 guide' url='https://ko.wikipedia.org/wiki/HTML'>
@@ -76,7 +77,7 @@ function Style() {
         </Href>
         사용할거야
         <br />
-        라고 알려주지 않았기 때문입니다
+        라고 알려주지 않았기 때문입니다.
         <br />
         그럼{' '}
         <Href title='css guide' url='https://namu.wiki/w/CSS'>
@@ -86,8 +87,9 @@ function Style() {
         <br />
         해당 명령어를 복사 (CTRL+C)하고
         <br />
-        style태그안에 붙여넣기 (CTRL+V)해봅시다
+        style태그안에 붙여넣기 (CTRL+V)해봅시다.
       </p>
+      <Comment identifier="css_style" url="/style" title="CSS-style" />
     </div>
   )
 }

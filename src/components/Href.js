@@ -5,7 +5,7 @@ function Href({ url, title, openNewTab = true, children }) {
     <a
       href={url}
       target={openNewTab ? '_blank' : '_self'}
-      rel='noopener noreferrer'
+      // rel='noopener noreferrer'
       title={title}
       className='SetColor'>
       {' '}
