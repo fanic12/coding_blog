@@ -1,7 +1,14 @@
 import React, { useState } from 'react'
-import Carousel from 'react-bootstrap/Carousel'
+import { Carousel } from 'react-bootstrap'
 
-const ControlledCarousel = ({}) => {
+const ControlledCarousel = ({
+  introduction,
+  introduction1,
+  introduction2,
+  image,
+  image1,
+  image2
+}) => {
   const [index, setIndex] = useState(0)
 
   const handleSelect = (selectedIndex, e) => {
@@ -11,40 +18,26 @@ const ControlledCarousel = ({}) => {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        <img
-          className='d-block w-100'
-          src='https://res.cloudinary.com/tpostr/image/upload/v1553865338/paparouna/IMG_7638-01.jpg'
-          alt='First slide'
-        />
+        <img className='d-block w-100' src={image} alt='First slide' />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>첫번째 사진</h3>
+          <p>{introduction}</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className='d-block w-100'
-          src='https://res.cloudinary.com/tpostr/image/upload/v1553865338/paparouna/IMG_7638-01.jpg'
-          alt='First slide'
-        />
+        <img className='d-block w-100' src={image1} alt='First slide' />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>두번째 사진</h3>
+          <p>{introduction1}</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img
-          className='d-block w-100'
-          src='https://res.cloudinary.com/tpostr/image/upload/v1553865338/paparouna/IMG_7638-01.jpg'
-          alt='First slide'
-        />
+        <img className='d-block w-100' src={image2} alt='First slide' />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>세번째 사진</h3>
+          <p>{introduction2}</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

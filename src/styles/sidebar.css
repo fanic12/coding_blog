@@ -63,7 +63,7 @@
 }
 
 .sidebar > .title:hover {
-  transform: scale(1.1) translateX(15px);
+  transform: scale(1.2) translateX(15px);
 }
 
 .sidebar > .post:hover {

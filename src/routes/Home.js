@@ -2,8 +2,8 @@ import React from 'react'
 import Youtube from '../components/Youtube'
 import Href from '../components/Href'
 import Comment from '../../src/components/Comment'
-import image from '../../src/Html1.jpg'
-import img from '../../src/Html.jpg'
+import img from '../../src/Html1.jpg'
+import img1 from '../../src/Html.jpg'
 import img2 from '../../src/Html2.jpg'
 import Carousel from '../posts/Scrap'
 
@@ -21,15 +21,12 @@ function Home() {
   </div>*/}
       <div className='BlogContent'>
         <Carousel
-          introduction='1'
-          sideintroduction='2'
-          introduction1='3'
-          sideintroduction1='4'
-          introduction2='5'
-          sideintroduction2='6'
-          img={image}
-          img1={img}
-          img2={img2}
+          introduction='이거'
+          introduction1='저거'
+          introduction2='요거'
+          image={img}
+          image1={img1}
+          image2={img2}
         />
         <h2>HELLO</h2>
         <Youtube title='CodingIntroduction' src='tZooW6PritE' />
