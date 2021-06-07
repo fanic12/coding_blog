@@ -34,7 +34,7 @@ function Img() {
         저작권이 없는 이미지 파일들을 구하실수 있을겁니다.
         <br />
         또는 원하는 사진이 안나오신다면{' '}
-        <Href title="img guide" url="https://unsplash.com/">
+        <Href title='img guide' url='https://unsplash.com/'>
           upsplash
         </Href>
         이라고 검색해보세요.
@@ -43,7 +43,7 @@ function Img() {
         <br /> 검색을 통해 좀더 쉽게 빠르게 찾으실수 있습니다.
         <iframe
           height='500'
-          width='100%'
+          width='50%'
           scrolling='no'
           title='html img'
           src='https://codepen.io/fanic12/embed/xxOWvzy?height=265&theme-id=dark&default-tab=html,result'
@@ -64,7 +64,7 @@ function Img() {
         <br></br>title과alt는 jsx문법이므로 React로 이미지를 넣으실때 사용하시면
         됩니다.
       </p>
-      <Comment identifier="html_img" url="/img" title="HTML-img" />
+      <Comment identifier='html_img' url='/img' title='HTML-img' />
     </div>
   )
 }

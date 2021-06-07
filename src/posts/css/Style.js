@@ -43,7 +43,7 @@ function Style() {
         </h4>
         <iframe
           height='500'
-          width='100%'
+          width='50%'
           scrolling='no'
           title='VwjyoJj'
           src='https://codepen.io/fanic12/embed/VwjyoJj?height=265&theme-id=dark&default-tab=html,result'
@@ -89,7 +89,7 @@ function Style() {
         <br />
         style태그안에 붙여넣기 (CTRL+V)해봅시다.
       </p>
-      <Comment identifier="css_style" url="/style" title="CSS-style" />
+      <Comment identifier='css_style' url='/style' title='CSS-style' />
     </div>
   )
 }

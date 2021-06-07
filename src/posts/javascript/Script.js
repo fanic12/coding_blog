@@ -68,7 +68,7 @@ function Script() {
         다른 형태로는 작동을 하지 않습니다.
         <iframe
           height='500'
-          width='100%'
+          width='50%'
           scrolling='no'
           title='javascript script'
           src='https://codepen.io/fanic12/embed/LYZdQbE?height=265&theme-id=dark&default-tab=html,result'
@@ -77,9 +77,7 @@ function Script() {
           allowtransparency='true'
           allowfullscreen='true'>
           See the Pen{' '}
-          <a href='https://codepen.io/fanic12/pen/LYZdQbE'>
-            javascript script
-          </a>{' '}
+          <a href='https://codepen.io/fanic12/pen/LYZdQbE'>javascript script</a>{' '}
           by fanic12 (<a href='https://codepen.io/fanic12'>@fanic12</a>) on{' '}
           <a href='https://codepen.io'>CodePen</a>.
         </iframe>
@@ -142,7 +140,11 @@ function Script() {
         <br />
         script코드입니다.
       </p>
-      <Comment identifier="javascript_script" url="/script" title="JAVASCRIPT-script" />
+      <Comment
+        identifier='javascript_script'
+        url='/script'
+        title='JAVASCRIPT-script'
+      />
     </div>
   )
 }

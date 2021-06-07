@@ -6,7 +6,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #000000;
+  color: #fff;
+}
+
+a:hover {
+  color: #fff;
 }
 
 h1 {
@@ -38,10 +42,10 @@ div {
   font-size: 1.1rem;
 }
 
-#app {
-  position: relative;
+.CarouselSizeSetting {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: '100%';
 }
-
 .imgsituate {
   text-align: center;
 }
@@ -53,15 +57,10 @@ div {
   background-color: #eff3f7;
 }
 
-#grid {
-  display: grid;
-  grid-template-columns: 150px 1fr;
-}
-
 .BlogContent {
   padding-bottom: 20px;
   font-size: 90%;
-  margin-top: 100px;
+  margin-top: 0;
 }
 
 .BlogContent h2:first-child {
@@ -84,15 +83,34 @@ div {
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 100%;
   min-height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
 }
 
-.afda {
-  width: 60rem;
-}
 .navbar > .title {
   color: beige;
+}
+
+.puttingCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CarouselSizeSetting {
+  margin-bottom: 54px;
+}
+
+/* @media (max-width: 2200px) {
+  .container > .CarouselSizeSetting {
+    min-height: 10%;
+    max-height: 30%;
+  }
+} */
+
+.DisSizeSetting {
+  max-width: 100%;
 }

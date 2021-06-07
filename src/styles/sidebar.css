@@ -22,22 +22,23 @@
 }
 
 .navbar .title {
-  margin-left: 20px;
+  margin-left: 15px;
   font-size: 24px;
 }
 
 .sidebar {
-  width: 200px;
+  width: 300px;
   height: 100%;
   position: fixed;
   top: 0;
-  left: -250px;
+  left: -300px;
   transform: translateX(0);
   transition: 0.8s ease all;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.8);
   padding: 1rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  z-index: 8;
 }
 
 .sidebar .closeBtn {
@@ -47,19 +48,20 @@
 
 .sidebar.open {
   transform: translateX(250px);
+  margin-left: 50px;
 }
 
 .sidebar > .title {
   margin-top: 30px;
   margin-bottom: 10px;
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 500;
   transition: all 0.3s ease;
 }
 
 .sidebar > .post {
   transition: all 0.3s ease;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 .sidebar > .title:hover {

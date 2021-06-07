@@ -6,7 +6,7 @@ function Padding_and_margin() {
   return (
     <div className='BlogContent'>
       <h2>CSS-padding & margin</h2>
-      <Youtube title="padding_and_marg inintroduce" src="MLjCVUspcDo" />
+      <Youtube title='padding_and_marg inintroduce' src='MLjCVUspcDo' />
       <p>
         지금부터 padding과 margin을 배워보도록 하겠습니다.
         <br />
@@ -35,7 +35,7 @@ function Padding_and_margin() {
         </h4>
         <iframe
           height='500'
-          width='100%'
+          width='50%'
           scrolling='no'
           title='css padding  &amp; margin'
           src='https://codepen.io/fanic12/embed/KKMQbrQ?height=265&theme-id=dark&default-tab=html,result'
@@ -60,7 +60,11 @@ function Padding_and_margin() {
           box태그나 grid태그에서 조금 더 느껴보시길 바랍니다*
         </h4>
       </p>
-      <Comment identifier="css_padding_and_margin" url="/padding_and_margin" title="CSS-padding_and_margin" />
+      <Comment
+        identifier='css_padding_and_margin'
+        url='/padding_and_margin'
+        title='CSS-padding_and_margin'
+      />
     </div>
   )
 }

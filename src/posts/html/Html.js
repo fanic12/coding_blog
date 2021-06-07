@@ -90,7 +90,7 @@ function Html() {
           </p>
           <iframe
             height='500'
-            width='100%'
+            width='50%'
             scrolling='no'
             title='html guide'
             src='https://codepen.io/fanic12/embed/gOMeVdp?height=265&theme-id=dark&default-tab=html,result'

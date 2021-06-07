@@ -23,7 +23,8 @@ function Map() {
         일반적인 작은 값들을 불러오기 할때는 map의 효율이 크게 발휘되지는
         않습니다.
         <br />
-        이를테면 i라는 값 하나를 불러올려고 map과같은 문법을 쓰는건 비효율적이죠.
+        이를테면 i라는 값 하나를 불러올려고 map과같은 문법을 쓰는건
+        비효율적이죠.
         <br />
         차라리 state나 props를 쓰는게 훨신 효율적일겁니다.
         <br />
@@ -54,7 +55,7 @@ function Map() {
         </h4>
         <iframe
           title='mapguide'
-          width='100%'
+          width='50%'
           height='500px'
           src='https://stackblitz.com/edit/react-map?embed=1&file=src/App.js'></iframe>
         map은 주로 list라는 부모Component로 값을 묶고
@@ -88,7 +89,7 @@ function Map() {
         <br />
         이때 alt는 시각장애인들을 위한 것입니다.
       </p>
-      <Comment identifier="react_map" url="/map" title="REACTJS-map" />
+      <Comment identifier='react_map' url='/map' title='REACTJS-map' />
     </div>
   )
 }

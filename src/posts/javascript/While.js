@@ -6,7 +6,7 @@ function While() {
   return (
     <div className='BlogContent'>
       <h2>javascript-while</h2>
-      <Youtube title="while introduce" src="ZupPmuWPSdE" />
+      <Youtube title='while introduce' src='ZupPmuWPSdE' />
       <p>
         이번에 배워볼 문법은 바로 while(반복문)입니다.
         <br />
@@ -52,7 +52,7 @@ function While() {
         </h4>
         <iframe
           height='500'
-          width='100%'
+          width='50%'
           scrolling='no'
           title='javascript while(반복문)'
           src='https://codepen.io/fanic12/embed/mdExvbV?height=265&theme-id=dark&default-tab=html,result'
@@ -93,7 +93,11 @@ function While() {
         <br />
         체험해 가시면 되겠습니다.
       </p>
-      <Comment identifier="javascript_while" url="/while" title="JAVASCRIPT-while" />
+      <Comment
+        identifier='javascript_while'
+        url='/while'
+        title='JAVASCRIPT-while'
+      />
     </div>
   )
 }

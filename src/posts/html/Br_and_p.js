@@ -32,7 +32,7 @@ function Br_and_p() {
         되실겁니다.
         <iframe
           height='500'
-          width='100%'
+          width='50%'
           scrolling='no'
           title='html-br-and-p'
           src='https://codepen.io/fanic12/embed/rNLdbQv?height=265&theme-id=dark&default-tab=html,result'

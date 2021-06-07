@@ -55,7 +55,7 @@ function If() {
         바랍니다.
         <iframe
           height='500'
-          width='100%'
+          width='50%'
           scrolling='no'
           title='javascript if(조건문)'
           src='https://codepen.io/fanic12/embed/yLJKKLd?height=265&theme-id=dark&default-tab=html,result'
@@ -109,7 +109,7 @@ function If() {
         </Href>
         가 동적으로 적용을 시키는 겁니다.
       </p>
-      <Comment identifier="javascript_if" url="/if" title="javascript-if" />
+      <Comment identifier='javascript_if' url='/if' title='javascript-if' />
     </div>
   )
 }

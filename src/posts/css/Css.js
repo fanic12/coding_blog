@@ -8,20 +8,20 @@ function Css() {
   return (
     <div className='BlogContent'>
       <h2>CSS-introduce</h2>
-      <Youtube title="css introduce" src="Ok0bBJPtgJI" />
+      <Youtube title='css introduce' src='Ok0bBJPtgJI' />
       <p>
-        <Href title="css guide" url="https://namu.wiki/w/CSS">
+        <Href title='css guide' url='https://namu.wiki/w/CSS'>
           CSS
         </Href>
         단계로 오신 여러분들 환영합니다.
         <br />
         이번수업은
-        <Href title="html5 guide" url="https://ko.wikipedia.org/wiki/HTML">
+        <Href title='html5 guide' url='https://ko.wikipedia.org/wiki/HTML'>
           HTML
         </Href>
         을 기반으로 웹을 꾸미는 기술들을 배울겁니다.
         <br />
-        <Href title="css guide" url="https://namu.wiki/w/CSS">
+        <Href title='css guide' url='https://namu.wiki/w/CSS'>
           CSS
         </Href>
         는 오로지 디자인을 위한 언어이기에 디자인이보다
@@ -32,7 +32,7 @@ function Css() {
           javascript{' '}
         </Link>{' '}
         강의로 가시길 바랍니다 이제 우리는 우리가
-        <Href title="html5 guide" url="https://ko.wikipedia.org/wiki/HTML">
+        <Href title='html5 guide' url='https://ko.wikipedia.org/wiki/HTML'>
           HTML
         </Href>
         로 만든 웹에 살을 더해주는 작업을 할겁니다.
@@ -40,7 +40,7 @@ function Css() {
         디자인 하나의 차이가 얼마나 큰지를 여러분들은 이번 강의에서 경험하게
         되실겁니다.
         <br />
-        <Href title="css guide" url="https://namu.wiki/w/CSS">
+        <Href title='css guide' url='https://namu.wiki/w/CSS'>
           css
         </Href>
         를 배우기 전에 수업에 기본적으로 사용되는 검사를 알려드릴려고 합니다.
@@ -59,7 +59,7 @@ function Css() {
       </p>
       <iframe
         height='500'
-        width='100%'
+        width='50%'
         scrolling='no'
         title='css guide'
         src='https://codepen.io/fanic12/embed/NWrYmOd?height=265&theme-id=dark&default-tab=html,result'
@@ -72,7 +72,7 @@ function Css() {
         fanic12 (<a href='https://codepen.io/fanic12'>@fanic12</a>) on{' '}
         <a href='https://codepen.io'>CodePen</a>.
       </iframe>
-      <Comment identifier="css" url="/css" title="CSS" />
+      <Comment identifier='css' url='/css' title='CSS' />
     </div>
   )
 }

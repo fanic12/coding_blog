@@ -40,7 +40,7 @@ function Props() {
         </h4>
         <iframe
           title='props guide'
-          width='100%'
+          width='50%'
           height='500px'
           src='https://stackblitz.com/edit/props-guide?embed=1&file=src/App.js'></iframe>
         <Href
@@ -135,7 +135,7 @@ function Props() {
         이때 (Component)라고 import하는 이유는 React내의 문법을 사용한다는
         의미입니다.
       </p>
-      <Comment identifier="react_props" url="/props" title="REACTJS-props" />
+      <Comment identifier='react_props' url='/props' title='REACTJS-props' />
     </div>
   )
 }

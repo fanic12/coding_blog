@@ -25,7 +25,7 @@ function State() {
         </h4>
         <iframe
           title='stateguide'
-          width='100%'
+          width='50%'
           height='500px'
           src='https://stackblitz.com/edit/state-guide?embed=1&file=src/App.js'></iframe>
         이번에 배워볼 문법은 state라는 문법입니다.
@@ -38,7 +38,8 @@ function State() {
         </Link>
         를 배우고 오시길 바랍니다.
         <br />
-        state는 간단하게는 props의 값을 가져오게 하는 거라고 생각하시면 편합니다.
+        state는 간단하게는 props의 값을 가져오게 하는 거라고 생각하시면
+        편합니다.
         <br />
         그럼 props랑 뭐가달라? props도 title값 가져오고 그런거 다 되는데? 라고
         생각 하실수 있어요.
@@ -88,7 +89,7 @@ function State() {
         그러나 state는 동적으로 작동하기 때문에 기본 값인 state그리고 setState를
         통해 값이 바뀔수 있습니다.
       </p>
-      <Comment identifier="react_state" url="/state" title="REACTJS-state" />
+      <Comment identifier='react_state' url='/state' title='REACTJS-state' />
     </div>
   )
 }

@@ -4,10 +4,12 @@ import { DiscussionEmbed } from 'disqus-react'
 
 const Comment = ({ url, identifier, title }) => {
   return (
-    <DiscussionEmbed
-      shortname='https-fanic12-github-io-coding-blog'
-      config={(url, identifier, title)}
-    />
+    <div className='DisSizeSetting'>
+      <DiscussionEmbed
+        shortname='https-fanic12-github-io-coding-blog'
+        config={(url, identifier, title)}
+      />
+    </div>
   )
 }
 

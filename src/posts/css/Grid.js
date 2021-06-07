@@ -6,13 +6,14 @@ function Grid() {
   return (
     <div className='BlogContent'>
       <h2>CSS-grid</h2>
-      <Youtube title="grid introduce" src="M1eQFIBY2vI" />
+      <Youtube title='grid introduce' src='M1eQFIBY2vI' />
       <p>
         이번 수업에서 배워볼 grid라는 코드는 앞서 공부한
         <br />
         padding과 margin을 조금 더 시각적으로 체험할수있을 뿐만 아니라
         <br />
-        여러분들은 grid를 통해 최초로 실시간으로 변형되는 웹을 체험 해보실겁니다.
+        여러분들은 grid를 통해 최초로 실시간으로 변형되는 웹을 체험
+        해보실겁니다.
         <br />
         fr이라는 단위는 고정되어있지 않습니다.
         <br />
@@ -56,7 +57,7 @@ function Grid() {
         바랍니다.
         <iframe
           height='500'
-          width='100%'
+          width='50%'
           scrolling='no'
           title='css grid'
           src='https://codepen.io/fanic12/embed/OJXQGBb?height=265&theme-id=dark&default-tab=html,result'
@@ -115,7 +116,7 @@ function Grid() {
         나머지 px을 fr이 가져가는 식입니다
         <br />즉 1000px: 전체px-100px 인셈입니다.
       </p>
-      <Comment identifier="css_grid" url="/grid" title="CSS-grid" />
+      <Comment identifier='css_grid' url='/grid' title='CSS-grid' />
     </div>
   )
 }

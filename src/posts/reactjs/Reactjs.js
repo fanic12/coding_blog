@@ -88,11 +88,11 @@ function Reactjs() {
         </h4>
         <iframe
           title='reactjsintroduce'
-          width='100%'
+          width='50%'
           height='500px'
           src='https://stackblitz.com/edit/react-introduce?embed=1&file=src/App.js'></iframe>
       </p>
-      <Comment identifier="reactjs" url="/reactjs" title="REACTJS" />
+      <Comment identifier='reactjs' url='/reactjs' title='REACTJS' />
     </div>
   )
 }

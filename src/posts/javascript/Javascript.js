@@ -79,7 +79,7 @@ function javascript() {
       </p>
       <iframe
         height='500'
-        width='100%'
+        width='50%'
         scrolling='no'
         title='javascript guide'
         src='https://codepen.io/fanic12/embed/dyXmxrB?height=265&theme-id=dark&default-tab=html,result'
@@ -88,11 +88,11 @@ function javascript() {
         allowtransparency='true'
         allowfullscreen='true'>
         See the Pen{' '}
-        <a href='https://codepen.io/fanic12/pen/dyXmxrB'>javascript guide</a>{' '}
-        by fanic12 (<a href='https://codepen.io/fanic12'>@fanic12</a>) on{' '}
+        <a href='https://codepen.io/fanic12/pen/dyXmxrB'>javascript guide</a> by
+        fanic12 (<a href='https://codepen.io/fanic12'>@fanic12</a>) on{' '}
         <a href='https://codepen.io'>CodePen</a>.
       </iframe>
-      <Comment identifier="javascript" url="/javascript" title="JAVASCRIPT" />
+      <Comment identifier='javascript' url='/javascript' title='JAVASCRIPT' />
     </div>
   )
 }

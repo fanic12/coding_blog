@@ -20,7 +20,7 @@ function A_href() {
         단위가지정한 title을 보여주는 역할입니다.
         <iframe
           height='500'
-          width='100%'
+          width='50%'
           scrolling='no'
           title='html a href'
           src='https://codepen.io/fanic12/embed/rNLdXrd?height=265&theme-id=dark&default-tab=html,result'
